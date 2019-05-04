@@ -1,6 +1,12 @@
 # nodejs-crypto-lab
 NodeJS crypto basis task.
 
+## Install
+
+```
+npm install
+```
+
 ## Basic usage
 
 ### Run with ES5 or below
