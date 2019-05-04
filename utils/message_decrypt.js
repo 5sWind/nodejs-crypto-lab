@@ -10,4 +10,4 @@ function decryptMessage(private_key, peer_public_key, encrypted_message) {
     }
 }
 
-export default decryptMessage;
+exports.decryptMessage = decryptMessage();

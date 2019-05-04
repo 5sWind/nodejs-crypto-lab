@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-crypto-lab",
+  "version": "1.0.0",
+  "description": "A lab to handle nodejs crypto development.",
+  "main": "interative_mode.mjs",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "npm test interative_mode.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/5sWind/nodejs-crypto-lab.git"
+  },
+  "keywords": [
+    "crypto",
+    "nodejs"
+  ],
+  "author": "5sWind",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/5sWind/nodejs-crypto-lab/issues"
+  },
+  "homepage": "https://github.com/5sWind/nodejs-crypto-lab#readme",
+  "dependencies": {
+    "jsthemis": "^0.11.0"
+  }
+}

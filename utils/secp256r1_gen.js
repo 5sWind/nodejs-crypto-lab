@@ -8,4 +8,4 @@ function secureKeyGen() {
     return { private_key, public_key };
 }
 
-export default secureKeyGen;
+exports.secureKeyGen = secureKeyGen();

@@ -10,4 +10,4 @@ function encryptMessage(private_key, peer_public_key, message) {
     }
 }
 
-export default encryptMessage;
+exports.encryptMessage = encryptMessage();

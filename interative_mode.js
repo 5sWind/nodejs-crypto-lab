@@ -1,8 +1,8 @@
-import secureKeyGen from "./utils/secp256r1_gen";
-import encryptMessage from "./utils/message_encrypt";
-import decryptMessage from "./utils/message_decrypt";
-import signMessage from "./utils/message_sign";
-import verifyMessage from "./utils/message_verify";
+const secureKeyGen = require("./utils/secp256r1_gen");
+const encryptMessage = require("./utils/message_encrypt");
+const decryptMessage = require("./utils/message_decrypt");
+const signMessage = require("./utils/message_sign");
+const verifyMessage = require("./utils/message_verify");
 
 console.log("==== Generating keypairs. ====")
 let privateKey = secureKeyGen().private_key;

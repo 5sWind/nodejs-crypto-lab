@@ -10,4 +10,4 @@ function signMessage(private_key, peer_public_key, message) {
     }
 }
 
-export default signMessage;
+exports.signMessage = signMessage();

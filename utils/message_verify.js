@@ -10,4 +10,4 @@ function verifyMessage(private_key, peer_public_key, signed_message) {
     }
 }
 
-export default verifyMessage;
+exports.verifyMessage = verifyMessage();
