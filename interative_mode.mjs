@@ -1,8 +1,8 @@
-import secureKeyGen from "./utils/mjs/secp256r1_gen";
-import encryptMessage from "./utils/mjs/message_encrypt";
-import decryptMessage from "./utils/mjs/message_decrypt";
-import signMessage from "./utils/mjs/message_sign";
-import verifyMessage from "./utils/mjs/message_verify";
+import secureKeyGen from "./utils/secp256r1_gen";
+import encryptMessage from "./utils/message_encrypt";
+import decryptMessage from "./utils/message_decrypt";
+import signMessage from "./utils/message_sign";
+import verifyMessage from "./utils/message_verify";
 
 console.log("==== Generating keypairs. ====")
 let privateKey = secureKeyGen().private_key;
