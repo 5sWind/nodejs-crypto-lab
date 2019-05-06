@@ -5,8 +5,9 @@ import signMessage from "./utils/message_sign";
 import verifyMessage from "./utils/message_verify";
 
 console.log("==== Generating keypairs. ====")
-let privateKey = secureKeyGen().private_key;
-let publicKey = secureKeyGen().public_key;
+let keypairs = secureKeyGen();
+let privateKey = keypairs.private_key;
+let publicKey = keypairs.public_key;
 console.log("Generated Private Key: ", { privateKey });
 console.log("Generated Public Key: ", { publicKey });
 
